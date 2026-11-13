@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <meta name="description" content="Help and contact for Jarberry, the fruit-merging puzzle game.">
+    <title>Support · Jarberry</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #262a25;
+        --muted: #59615a;
+        --paper: #fbf3f0;
+        --surface: #fffefa;
+        --line: #ecd6d2;
+        --accent: #c2264f;
+        --focus: #146a9a;
+      }
+
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body { margin: 0; background: var(--paper); color: var(--ink); font: 1rem/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      a { color: var(--accent); text-underline-offset: .2em; }
+      a:hover { text-decoration-thickness: .13em; }
+      a:focus-visible { outline: .2rem solid var(--focus); outline-offset: .25rem; border-radius: .15rem; }
+      .shell { width: min(100% - 2.5rem, 72rem); margin-inline: auto; }
+      .topbar { border-bottom: 1px solid var(--line); background: var(--surface); }
+      .topbar .shell { display: flex; align-items: center; gap: .85rem; min-height: 5rem; }
+      .mark { width: 2.25rem; height: 2.25rem; flex: none; color: var(--accent); }
+      .brand { font-size: 1rem; font-weight: 700; letter-spacing: .025em; }
+      .hero { padding: clamp(3rem, 7vw, 6rem) 0 clamp(2rem, 5vw, 4rem); }
+      .eyebrow { color: var(--accent); font-size: .8rem; font-weight: 750; letter-spacing: .14em; text-transform: uppercase; }
+      h1, h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; line-height: 1.18; letter-spacing: -.025em; }
+      h1 { max-width: 16ch; margin: .8rem 0 1.2rem; font-size: clamp(2.8rem, 7vw, 5rem); }
+      .lead { max-width: 42rem; color: var(--muted); font-size: clamp(1.08rem, 2vw, 1.3rem); }
+      .updated { color: var(--muted); font-size: .9rem; }
+      .layout { display: grid; grid-template-columns: minmax(12rem, 16rem) minmax(0, 45rem); gap: clamp(2rem, 6vw, 6rem); align-items: start; padding-bottom: 5rem; }
+      nav { position: sticky; top: 1.5rem; padding: 1.1rem 1.25rem; border: 1px solid var(--line); border-radius: 1rem; background: var(--surface); }
+      nav p { margin: 0 0 .6rem; color: var(--muted); font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+      nav ul { margin: 0; padding: 0; list-style: none; }
+      nav li + li { margin-top: .35rem; }
+      nav a { display: inline-block; padding: .15rem 0; }
+      main { min-width: 0; }
+      section { border-top: 1px solid var(--line); padding: 1.8rem 0 2rem; }
+      section:first-child { border-top: .2rem solid var(--accent); }
+      h2 { margin: 0 0 .9rem; font-size: clamp(1.65rem, 3vw, 2.1rem); }
+      p, ul { margin: .7rem 0 0; }
+      li + li { margin-top: .55rem; }
+      .callout { padding: 1rem 1.2rem; border-left: .2rem solid var(--accent); background: #e9eee8; border-radius: 0 .6rem .6rem 0; }
+      footer { border-top: 1px solid var(--line); padding: 1.5rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
+      @media (max-width: 44rem) {
+        .layout { grid-template-columns: 1fr; gap: 1.6rem; }
+        nav { position: static; }
+        nav ul { display: flex; flex-wrap: wrap; gap: .2rem 1rem; }
+        nav li + li { margin: 0; }
+      }
+      @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    </style>
+  </head>
+  <body>
+    <header class="topbar"><div class="shell"><svg class="mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M14 10h20v5h-2v4.5c4.8 2.7 8 7.8 8 13.5 0 8.3-6.7 13-16 13S8 41.3 8 33c0-5.7 3.2-10.8 8-13.5V15h-2Z" fill="currentColor"/></svg><span class="brand">Jarberry</span></div></header>
+    <div class="shell">
+      <div class="hero">
+        <span class="eyebrow">Help &amp; contact</span>
+        <h1>Jarberry Support</h1>
+        <p class="lead">Drop matching fruit into the jar, merge them into bigger fruit and grow the golden watermelon. Here are answers to common questions.</p>
+        <p class="updated">Updated 13 November 2026</p>
+      </div>
+      <div class="layout">
+        <nav aria-label="Sections"><p>On this page</p><ul><li><a href="#play">How to play</a></li><li><a href="#jars">Jars, themes and skins</a></li><li><a href="#purchase">Restore a purchase</a></li><li><a href="#ads">Ads and privacy</a></li><li><a href="#contact">Contact</a></li></ul></nav>
+        <main><section id="play" aria-labelledby="play-heading"><h2 id="play-heading">How to play</h2><p>Drag to aim, lift to drop. Two identical fruits merge into the next fruit. If fruit stays above the dashed line for three seconds, the jar overflows and the run ends. Merges fill the jam meter; when it is full, tap it for a Jam Burst that clears the smallest fruit.</p></section><section id="jars" aria-labelledby="jars-heading"><h2 id="jars-heading">Jars, themes and skins</h2><p>New jars, themes and fruit skins unlock as you play: finish runs, discover fruit and set high scores. Pick a jar for your next run in Settings or on the game-over card.</p></section><section id="purchase" aria-labelledby="purchase-heading"><h2 id="purchase-heading">Restore a purchase</h2><p>If you bought “Remove Ads + Supporter” and it is missing, open Settings in the game and tap <em>Restore Purchases</em> while signed in with the same Apple Account.</p></section><section id="ads" aria-labelledby="ads-heading"><h2 id="ads-heading">Ads and privacy</h2><p>Rewarded ads are always optional. You can change ad consent in Settings → Ad Privacy Choices where required. Read the <a href="privacy.html">privacy policy</a>.</p></section><section id="contact" aria-labelledby="contact-heading"><h2 id="contact-heading">Contact</h2><p>Found a bug or have an idea? Email <a href="mailto:claudiurasteanu@icloud.com">claudiurasteanu@icloud.com</a> and include your device model and iOS version. We usually reply within a few days.</p></section></main>
+      </div>
+    </div>
+  </body>
+</html>
